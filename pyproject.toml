@@ -22,8 +22,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ILoveBacteria/digikala_api"
-Issues = "https://github.com/ILoveBacteria/digikala_api/issues"
+Homepage = "https://github.com/ILoveBacteria/digikala-api"
+Issues = "https://github.com/ILoveBacteria/digikala-api/issues"
 
 [tool.bumpver]
 current_version = "0.0.0"
