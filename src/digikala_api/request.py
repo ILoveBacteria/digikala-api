@@ -16,6 +16,10 @@ def product_detail(product_id: str) -> Product:
 
     Returns:
         Product: A Product object that contains product detail
+        
+    Raises:
+        ProductNotFoundError: If product not found
+        HTTPError: If status code is not 200
     """
     url = API_URL / 'product' / product_id
     response = requests.get(str(url))
