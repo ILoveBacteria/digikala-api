@@ -1,5 +1,7 @@
 # Digikala API
 
+![PyPI - Version](https://img.shields.io/pypi/v/digikala-api)
+
 Request to Digikala API and get a product detail.
 
 ## Example
