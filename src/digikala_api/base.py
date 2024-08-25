@@ -43,7 +43,7 @@ class Url:
             uri += '/'
         self.uri = uri
         
-    def __div__(self, other: str) -> str:
+    def __truediv__(self, other: str) -> str:
         if other.startswith('/'):
             other = other[1:]
         return Url(self.uri + other)
